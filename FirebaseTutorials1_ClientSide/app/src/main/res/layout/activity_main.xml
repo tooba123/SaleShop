@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sale.shop.app.firebasetutorials1_clientside.MainActivity"
+    >
+
+    <!--android:background="#10000000"-->
+
+
+    <ListView
+        android:id="@+id/listvw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_above="@id/view_adview"/>
+
+    <LinearLayout
+        android:id="@+id/view_adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5777265259393911/7542422254"
+            >
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+        <!-- ads:adUnitId="ca-app-pub-3940256099942544/6300978111" -->
+
+</RelativeLayout>

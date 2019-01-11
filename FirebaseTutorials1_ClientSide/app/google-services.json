@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "594682008019",
+    "firebase_url": "https://fir-tutorials-21fce.firebaseio.com",
+    "project_id": "fir-tutorials-21fce",
+    "storage_bucket": "fir-tutorials-21fce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594682008019:android:279b90277145d2be",
+        "android_client_info": {
+          "package_name": "sale.shop.app.firebasetutorials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594682008019-m9fo7dnk7ceulhrq5b3jefjhmtf3n9ib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sale.shop.app.firebasetutorials",
+            "certificate_hash": "7294a5c2caa733e1d2b35e3c061551cecbad2a77"
+          }
+        },
+        {
+          "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8VXHkepIVc9qI5NO_cIjvu_ca_mVNnXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594682008019:android:0b941a40094f1493",
+        "android_client_info": {
+          "package_name": "com.android.androidapp.firebasetutorials1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594682008019-574o3fsnqn2mb4ulu986b8g8fmsu6a0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sale.shop.app.firebasetutorials1",
+            "certificate_hash": "7294a5c2caa733e1d2b35e3c061551cecbad2a77"
+          }
+        },
+        {
+          "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8VXHkepIVc9qI5NO_cIjvu_ca_mVNnXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594682008019:android:3d0228ade6e16907",
+        "android_client_info": {
+          "package_name": "sale.shop.app.firebasetutorials1_clientside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594682008019-hqnmqsun9g8o3qsjlnb3vfdo8f6lk3nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sale.shop.app.firebasetutorials1_clientside",
+            "certificate_hash": "7294a5c2caa733e1d2b35e3c061551cecbad2a77"
+          }
+        },
+        {
+          "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8VXHkepIVc9qI5NO_cIjvu_ca_mVNnXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594682008019-ndc5ca19qbtt9r0j52ejaoqdvn908cme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
