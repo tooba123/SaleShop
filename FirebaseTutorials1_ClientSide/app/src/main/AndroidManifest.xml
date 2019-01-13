@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.androidapp.firebasetutorials1_clientside">
+    package="saleone.shopone.appone.firebasetutorials1_clientside">
 
-    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!--<uses-permission android:name="android.permission.GET_TASKS" /> -->
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission> -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_one"
@@ -12,11 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="sale.shop.app.firebasetutorials1_clientside.MainActivity">
+        <activity android:name="saleone.shopone.appone.firebasetutorials1_clientside.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
             <meta-data
                 android:name="android.app.default_searchable"
@@ -24,7 +26,7 @@
 
         </activity>
 
-        <activity android:name="sale.shop.app.firebasetutorials1_clientside.SearchResultsActivity" android:launchMode="singleTop">
+        <activity android:name="saleone.shopone.appone.firebasetutorials1_clientside.SearchResultsActivity" android:launchMode="singleTop">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -37,7 +39,7 @@
         </activity>
 
         <service
-            android:name="sale.shop.app.firebasetutorials1_clientside.MyService"
+            android:name="saleone.shopone.appone.firebasetutorials1_clientside.MyService"
             android:enabled="true"
             android:exported="true" />
 

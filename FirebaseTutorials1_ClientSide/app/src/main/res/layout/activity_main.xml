@@ -4,10 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sale.shop.app.firebasetutorials1_clientside.MainActivity"
+
     >
 
     <!--android:background="#10000000"-->
+
+    <RelativeLayout
+        android:id="@+id/view_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorDarkishGray">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_saleshop"
+                />
+
+
+
+
+    </RelativeLayout>
 
 
     <ListView
@@ -21,7 +40,8 @@
 
         android:divider="@null"
         android:dividerHeight="0dp"
-        android:layout_above="@id/view_adview"/>
+        android:layout_above="@id/view_adview"
+        android:layout_below="@+id/view_app_bar"/>
 
     <LinearLayout
         android:id="@+id/view_adview"
@@ -39,13 +59,15 @@
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-5777265259393911/7542422254"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
             >
 
         </com.google.android.gms.ads.AdView>
     </LinearLayout>
 
 
+        <!--ads:adUnitId=ca-app-pub-5777265259393911/7542422254 -->
+        <!--Test ads -->
         <!-- ads:adUnitId="ca-app-pub-3940256099942544/6300978111" -->
 
 </RelativeLayout>

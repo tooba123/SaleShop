@@ -1,4 +1,4 @@
-package sale.shop.app.firebasetutorials1_clientside;
+package saleone.shopone.appone.firebasetutorials1_clientside;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.SearchView;
 
-import com.android.androidapp.firebasetutorials1_clientside.R;
+import saleone.shopone.appone.firebasetutorials1_clientside.R;
 
 public class SearchResultsActivity extends AppCompatActivity {
 

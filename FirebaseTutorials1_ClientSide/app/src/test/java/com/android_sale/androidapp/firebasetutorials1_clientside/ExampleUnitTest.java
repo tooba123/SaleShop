@@ -1,4 +1,4 @@
-package com.android.androidapp.firebasetutorials1_clientside;
+package com.android_sale.androidapp.firebasetutorials1_clientside;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package sale.shop.app.firebasetutorials1_clientside.Model;
+package saleone.shopone.appone.firebasetutorials1_clientside.Model;
 
 import java.util.Date;
 

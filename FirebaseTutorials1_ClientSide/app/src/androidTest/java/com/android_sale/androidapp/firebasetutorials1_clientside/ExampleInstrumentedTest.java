@@ -1,4 +1,4 @@
-package com.android.androidapp.firebasetutorials1_clientside;
+package com.android_sale.androidapp.firebasetutorials1_clientside;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

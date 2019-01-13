@@ -1,4 +1,4 @@
-package sale.shop.app.firebasetutorials1_clientside;
+package saleone.shopone.appone.firebasetutorials1_clientside;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -19,9 +19,9 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-import sale.shop.app.firebasetutorials1_clientside.Model.SaleMessage;
+import saleone.shopone.appone.firebasetutorials1_clientside.Model.SaleMessage;
 
-import com.android.androidapp.firebasetutorials1_clientside.R;
+import saleone.shopone.appone.firebasetutorials1_clientside.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -197,11 +197,11 @@ public class MainActivity extends AppCompatActivity {
 
         lst.setAdapter(customAdapter);
 
-        /// Adding ads
-        //MobileAds.initialize(this,"ca-app-pub-3940256099942544~3347511713");
+        /// Adding ads Test App Id
+        MobileAds.initialize(this,"ca-app-pub-3940256099942544~3347511713");
 
         try {
-//            //MobileAds.initialize(this, "ca-app-pub-5777265259393911~6452701866");
+            //MobileAds.initialize(this, "ca-app-pub-5777265259393911~6452701866");
             AdView mAdView = (AdView) findViewById(R.id.adView);
             AdRequest adRequest = new AdRequest.Builder().build();
 //        AdRequest adRequest =  new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();

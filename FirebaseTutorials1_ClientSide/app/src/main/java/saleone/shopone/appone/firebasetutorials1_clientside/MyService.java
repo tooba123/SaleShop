@@ -1,21 +1,16 @@
-package sale.shop.app.firebasetutorials1_clientside;
+package saleone.shopone.appone.firebasetutorials1_clientside;
 
-import android.app.ActivityManager;
 import android.app.PendingIntent;
 import android.app.Service;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
-import android.widget.Toast;
 
-import com.android.androidapp.firebasetutorials1_clientside.R;
+import saleone.shopone.appone.firebasetutorials1_clientside.R;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -25,7 +20,6 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 
 public class MyService extends Service {
     public MyService() {
@@ -177,7 +171,7 @@ public class MyService extends Service {
 
 
     public boolean isMainActivityRunning(String packageName) {
-        ActivityManager activityManager = (ActivityManager) getSystemService (Context.ACTIVITY_SERVICE);
+        /*ActivityManager activityManager = (ActivityManager) getSystemService (Context.ACTIVITY_SERVICE);
         List<ActivityManager.RunningTaskInfo> tasksInfo = activityManager.getRunningTasks(Integer.MAX_VALUE);
 
         for (int i = 0; i < tasksInfo.size(); i++) {
@@ -186,7 +180,7 @@ public class MyService extends Service {
             if (tasksInfo.get(i).baseActivity.getPackageName().toString().equals(packageName)) {
                 return true;
             }
-        }
+        }*/
 
         return false;
     }
