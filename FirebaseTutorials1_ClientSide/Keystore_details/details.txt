@@ -1,6 +1,6 @@
 Pass1 = Tester99$
-Pass2 = Developer99$
+Pass2 = Tester99$
 
-applicationId "com.android.androidapp.firebasetutorials1_clientside"
+applicationId "saleone.shopone.appone.firebasetutorials1_clientside"
 
 com.example.farahsaeed.firebasetutorials1_clientside

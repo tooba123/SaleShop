@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="saleone.shopone.appone.firebasetutorials1_clientside">
+    package="sale.shop.app.firebasetutorials1_clientside">
 
     <!--<uses-permission android:name="android.permission.GET_TASKS" /> -->
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="saleone.shopone.appone.firebasetutorials1_clientside.MainActivity">
+        <activity android:name="sale.shop.app.firebasetutorials1_clientside.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +26,7 @@
 
         </activity>
 
-        <activity android:name="saleone.shopone.appone.firebasetutorials1_clientside.SearchResultsActivity" android:launchMode="singleTop">
+        <activity android:name="sale.shop.app.firebasetutorials1_clientside.SearchResultsActivity" android:launchMode="singleTop">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -39,7 +39,7 @@
         </activity>
 
         <service
-            android:name="saleone.shopone.appone.firebasetutorials1_clientside.MyService"
+            android:name=".MyService"
             android:enabled="true"
             android:exported="true" />
 
